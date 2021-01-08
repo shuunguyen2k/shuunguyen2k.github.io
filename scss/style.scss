@@ -1,0 +1,89 @@
+$primary-color: #e5b72d;
+$white-color: #ffffff;
+$black-color: #000000;
+$gray-color: #868686;
+$border-color: #c1c1c1;
+
+// Base scss
+html {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+//
+#header {
+    color: $white-color;
+    height: 465px;
+    background: url("../images/banner.png") no-repeat center/cover;
+    .header-main-inner {
+        border-bottom: 1px solid $border-color;
+
+        .header-topbar {
+            font-size: 1.6rem;
+            text-align: center;
+            position: relative;
+            height: 45px;
+
+            .header-container {
+                padding: 0 5rem;
+
+                span {
+                    position: absolute;
+                    top: 1rem;
+                    right: 6.5%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .header-wrap-stick {
+            position: relative;
+
+            .sticky-wrapper {
+                padding: 3rem 6.5%;
+
+                .search-box {
+                    
+                }
+            }
+        }
+    }
+}
+
+#main {
+    padding: 3.2rem 12.75%;
+    // .part-wrap {
+    //     max-width: 50%;
+    // }
+}
+
+#footer {
+    background: $black-color;
+}

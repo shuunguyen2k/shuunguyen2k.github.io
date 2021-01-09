@@ -1,159 +1,41 @@
-html {
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
+/*
+Error: Invalid CSS after "    .footer-sub": expected "{", was "}"
+        on line 454 of C:\Users\shuun\Desktop\Dev\Engo\lebe\shuunguyen2k.github.io\scss\style.scss
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+449:             }
+450:         }
+451:     }
+452: 
+453:     .footer-sub
+454: }
 
-html {
-  font-size: 62.5%;
-  line-height: 1.6rem;
-}
-
-body {
-  margin: 0;
-}
-
-a {
-  color: inherit;
-}
-a:hover, a:focus {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-#header {
-  color: #ffffff;
-  height: 465px;
-  background: url("../images/banner.png") no-repeat center/cover;
-}
-#header .header-main-inner {
-  border-bottom: 1px solid #c1c1c1;
-}
-#header .header-main-inner .header-topbar {
-  font-size: 1.6rem;
-  text-align: center;
-  position: relative;
-  height: 45px;
-  background-color: #84bdbe;
-}
-#header .header-main-inner .header-topbar .header-container {
-  padding: 0 5rem;
-}
-#header .header-main-inner .header-topbar .header-container span {
-  position: absolute;
-  top: 1rem;
-  right: 6.5%;
-  cursor: pointer;
-}
-#header .header-main-inner .header-wrap-stick {
-  position: relative;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper {
-  padding: 3rem 6.5%;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-search-box form {
-  position: relative;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-search-box form .search-fields .search-field {
-  width: 35rem;
-  height: 5rem;
-  max-width: 100%;
-  border: none;
-  outline: none;
-  border-radius: 999px;
-  padding: 0 2rem 0 5rem;
-  font-size: 1.4rem;
-  color: #868686;
-  background-color: #f8f8f8;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-search-box form .search-fields .search-submit {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 5rem;
-  height: 5rem;
-  border: none;
-  outline: none;
-  font-size: 2rem;
-  color: #000000;
-  background: transparent;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-menu .nav-item {
-  margin: 0 2.5rem;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-menu .nav-item a {
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  position: relative;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-menu .nav-item a:hover {
-  color: #e5b72d;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language {
-  position: relative;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language a {
-  display: inline-block;
-  position: relative;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  color: #000000;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language .currency {
-  min-width: 8rem;
-  height: 3.6rem;
-  padding: 0.8rem 2.4rem 0.8rem 1.6rem;
-  border: 1px solid #ffffff;
-  border-radius: 999px;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language .currency i {
-  position: absolute;
-  top: 1.2rem;
-  right: 1.4rem;
-  color: #ffffff;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .block-account {
-  margin-left: 3rem;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .block-account a {
-  font-size: 2.4rem;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .lebe-minicart {
-  margin-left: 3rem;
-  margin-right: 2rem;
-  position: relative;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .lebe-minicart .flaticon-bag {
-  font-size: 2.4rem;
-}
-#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .lebe-minicart .minicart-number {
-  position: absolute;
-  font-size: 1.2rem;
-  width: 2.2rem;
-  height: 2.2rem;
-  line-height: 2.2rem;
-  border-radius: 50%;
-  background: #e5b72d;
-  text-align: center;
-  transform: translateY(-50%);
-}
-
-#main {
-  padding: 3.2rem 12.75%;
-}
-
-#footer {
-  background: #000000;
-}
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:\Users\shuun\Desktop\Dev\Engo\lebe\shuunguyen2k.github.io\scss\style.scss:454
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    .footer-sub\": expected \"{\", was \"}\"\A         on line 454 of C:\Users\shuun\Desktop\Dev\Engo\lebe\shuunguyen2k.github.io\scss\style.scss\A \A 449:             }\A 450:         }\A 451:     }\A 452: \A 453:     .footer-sub\A 454: }"; }

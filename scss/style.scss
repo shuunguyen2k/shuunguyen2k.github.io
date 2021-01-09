@@ -3,6 +3,7 @@ $white-color: #ffffff;
 $black-color: #000000;
 $gray-color: #868686;
 $border-color: #c1c1c1;
+$background-color: #f8f8f8;
 
 // Base scss
 html {
@@ -50,6 +51,7 @@ img {
             text-align: center;
             position: relative;
             height: 45px;
+            background-color: #84bdbe;
 
             .header-container {
                 padding: 0 5rem;
@@ -58,6 +60,7 @@ img {
                     position: absolute;
                     top: 1rem;
                     right: 6.5%;
+                    // font-size: 16px;
                     cursor: pointer;
                 }
             }
@@ -69,8 +72,116 @@ img {
             .sticky-wrapper {
                 padding: 3rem 6.5%;
 
-                .search-box {
-                    
+                .header-search-box {
+                    form {
+                        position: relative;
+
+                        .search-fields {
+                            .search-field {
+                                width: 35rem;
+                                height: 5rem;
+                                max-width: 100%;
+                                border: none;
+                                outline: none;
+                                border-radius: 999px;
+                                padding: 0 2rem 0 5rem;
+                                font-size: 1.4rem;
+                                color: $gray-color;
+                                background-color: $background-color;
+                            }
+
+                            .search-submit {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 5rem;
+                                height: 5rem;
+                                border: none;
+                                outline: none;
+                                font-size: 2rem;
+                                color: $black-color;
+                                background: transparent;
+                            }
+                        }
+                    }
+                }
+
+                .header-menu {
+                    .nav-item {
+                        margin: 0 2.5rem;
+
+                        a {
+                            font-size: 1.4rem;
+                            font-weight: 700;
+                            letter-spacing: 0.2rem;
+                            text-transform: uppercase;
+                            position: relative;
+
+                            &:hover {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+
+                .header-control-wrap {
+                    .currency-language-wrap {
+                        .currency-language {
+                            position: relative;
+
+                            a {
+                                display: inline-block;
+                                position: relative;
+                                letter-spacing: 0.2rem;
+                                text-transform: uppercase;
+                                color: $black-color;
+                            }
+
+                            .currency {
+                                min-width: 8rem;
+                                height: 3.6rem;
+                                padding: 0.8rem 2.4rem 0.8rem 1.6rem;
+                                border: 1px solid $white-color;
+                                border-radius: 999px;
+                                i {
+                                    position: absolute;
+                                    top: 1.2rem;
+                                    right: 1.4rem;
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+
+                    .block-account {
+                        margin-left: 3rem;
+
+                        a {
+                            font-size: 2.4rem;
+                        }
+                    }
+
+                    .lebe-minicart {
+                        margin-left: 3rem;
+                        margin-right: 2rem;
+                        position: relative;
+
+                        .flaticon-bag {
+                            font-size: 2.4rem;
+                        }
+
+                        .minicart-number {
+                            position: absolute;
+                            font-size: 1.2rem;
+                            width: 2.2rem;
+                            height: 2.2rem;
+                            line-height: 2.2rem;
+                            border-radius: 50%;
+                            background: $primary-color;
+                            text-align: center;
+                            transform: translateY(-50%);
+                        }
+                    }
                 }
             }
         }

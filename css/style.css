@@ -42,6 +42,7 @@ img {
   text-align: center;
   position: relative;
   height: 45px;
+  background-color: #84bdbe;
 }
 #header .header-main-inner .header-topbar .header-container {
   padding: 0 5rem;
@@ -57,6 +58,94 @@ img {
 }
 #header .header-main-inner .header-wrap-stick .sticky-wrapper {
   padding: 3rem 6.5%;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-search-box form {
+  position: relative;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-search-box form .search-fields .search-field {
+  width: 35rem;
+  height: 5rem;
+  max-width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 999px;
+  padding: 0 2rem 0 5rem;
+  font-size: 1.4rem;
+  color: #868686;
+  background-color: #f8f8f8;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-search-box form .search-fields .search-submit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  color: #000000;
+  background: transparent;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-menu .nav-item {
+  margin: 0 2.5rem;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-menu .nav-item a {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position: relative;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-menu .nav-item a:hover {
+  color: #e5b72d;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language {
+  position: relative;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language a {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language .currency {
+  min-width: 8rem;
+  height: 3.6rem;
+  padding: 0.8rem 2.4rem 0.8rem 1.6rem;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .currency-language-wrap .currency-language .currency i {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.4rem;
+  color: #ffffff;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .block-account {
+  margin-left: 3rem;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .block-account a {
+  font-size: 2.4rem;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .lebe-minicart {
+  margin-left: 3rem;
+  margin-right: 2rem;
+  position: relative;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .lebe-minicart .flaticon-bag {
+  font-size: 2.4rem;
+}
+#header .header-main-inner .header-wrap-stick .sticky-wrapper .header-control-wrap .lebe-minicart .minicart-number {
+  position: absolute;
+  font-size: 1.2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  border-radius: 50%;
+  background: #e5b72d;
+  text-align: center;
+  transform: translateY(-50%);
 }
 
 #main {

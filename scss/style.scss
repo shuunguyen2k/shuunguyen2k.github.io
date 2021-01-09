@@ -370,7 +370,7 @@ img {
     background: $black-color;
 
     .footer-main-inner {
-        padding: 5rem 24rem;
+        padding: 5rem 12.75%;
         border-bottom: 1px solid #2b2b2b;
         font-size: 1.4rem;
 
@@ -419,7 +419,7 @@ img {
             form {
                 position: relative;
                 width: 70.22%;
-                
+
                 input {
                     border: 2px solid #3a3a3a;
                     background: none;
@@ -450,5 +450,9 @@ img {
         }
     }
 
-    .footer-sub
+    .footer-sub {
+        padding: 2rem 12.75%;
+
+        
+    }
 }
